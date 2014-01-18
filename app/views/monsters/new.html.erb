@@ -1,0 +1,22 @@
+<div class="page-header">
+  <h1>モンスターを作る</h1>
+</div>
+
+<div class="row">
+  <div class="span6 offset3">
+    <%= simple_form_for(@monster) do |f| %>
+      
+      <%= f.input :name %>
+      <%= f.input :subtype %>
+      <%= f.input :level %>
+      <%= f.input :money %>
+      <%= f.input :power %>
+      <%= f.input :life %>
+      <%= f.input :text %>
+
+      <div class="form-actions">
+        <%= f.button :submit, class: 'btn btn-large btn-primary' %>
+      </div>
+    <% end %>
+  </div>
+</div>

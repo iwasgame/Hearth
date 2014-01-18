@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  subtype: MyString
+  level: 1
+  money: 1
+  power: 1
+  life: 1
+  text: MyString
+
+two:
+  name: MyString
+  subtype: MyString
+  level: 1
+  money: 1
+  power: 1
+  life: 1
+  text: MyString
